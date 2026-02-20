@@ -398,7 +398,7 @@ minions-sheets/
 
 **BEYOND STANDARD PATTERN**
 
-These utilities and classes are specific to `minions-sheets`:
+These utilities and classes are specific to `@minions-sheets/sdk`:
 
 **SheetEngine**
 - Formula parser and evaluation engine
@@ -726,7 +726,7 @@ Include working examples for:
 
 **Data Analysis Agent** (TypeScript)
 ```typescript
-import { SheetEngine, SheetQuery, SheetImporter } from 'minions-sheets';
+import { SheetEngine, SheetQuery, SheetImporter } from '@minions-sheets/sdk';
 import { Minion } from 'minions-sdk';
 
 // Import CSV data
